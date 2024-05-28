@@ -1,6 +1,6 @@
 # pt-valheim
 
-Thunderstore.io Modpack for trve warriors of `poundtown.oovoid.com`
+Thunderstore.io Modpack for trve warriors.
 
 ## manifest.json
 
