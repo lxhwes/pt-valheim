@@ -14,8 +14,7 @@ This file is a metadata file for the modpack. It contains information about the 
   "dependencies": [
     {
         "Some-Dependencies-mod-1.6.9"
-    },
-    ...
+    }
   ]
 }
 ```
