@@ -2,7 +2,7 @@
   "name": "pt_valheim",
   "version_number": "1.0.0",
   "website_url": "https://github.com/lxhwes/pt-valheim",
-  "description": "PoundTown Valheim Modpack",
+  "description": "PoundTown Valheim Modpack for trve warriors",
   "dependencies": [
     "Advize-PlantEverything-1.18.0",
     "Advize-PlantEasily-1.8.0",
