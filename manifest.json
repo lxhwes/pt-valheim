@@ -1,34 +1,20 @@
 {
-  "name": "pt-valheim",
-  "version": "1.0.0",
-  "description": "Poundtown Valheim Modpack",
+  "name": "pt_valheim",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/lxhwes/pt-valheim",
+  "description": "PoundTown Valheim Modpack",
   "dependencies": [
-    {
-      "name": "BepInEx",
-      "version": "5.4.2202"
-    },
-    {
-      "name": "Jotunn",
-      "version": "2.20.1"
-    },
-    {
-      "name": "R2API",
-      "version": "2.5.14"
-    },
-    {
-      "name": "ValheimPlus",
-      "version": "0.9.8"
-    },
-    {
-      "name": "ValheimLib",
-      "version": "0.79.0"
-
-    }
-  ],
-  "files": [
-    {
-      "source": "BepInEx/config/modname.cfg",
-      "destination": "BepInEx/config/modname.cfg"
-    }
+    "Advize-PlantEverything-1.18.0",
+    "Advize-PlantEasily-1.8.0",
+    "Azumatt-SleepSkip-1.1.0",
+    "denikson-BepInExPack_Valheim-5.4.2202",
+    "Digitalroot-Heightmap_Unlimited_Remake-1.4.1",
+    "Digitalroot-Max_Dungeon_Rooms-2.0.32",
+    "Grantapher-ValheimPlus_Grantapher_Temporary-9.13.0",
+    "SpikeHimself-XPortal-1.2.21",
+    "LVH-IT-UseEquipmentInWater-0.2.4",
+    "ValheimModding-Jotunn-2.20.1",
+    "virtuaCode-EmoteWheel-1.4.1",
+    "zolantris-ValheimRAFT-2.1.1"
   ]
 }
