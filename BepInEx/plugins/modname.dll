@@ -1,0 +1,5 @@
+The contents of the file `/my-valheim-modpack/BepInEx/plugins/modname.dll` should be the compiled code for your Valheim mod. Since the contents of a DLL file cannot be generated, you will need to compile your mod code into a DLL using your preferred development environment or tools.
+
+If you have already compiled your mod code into a DLL, you can simply copy the compiled DLL file into the `/my-valheim-modpack/BepInEx/plugins/` directory.
+
+If you need assistance with compiling your mod code or have any other questions, please let me know.

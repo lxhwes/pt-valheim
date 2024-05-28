@@ -1,0 +1,25 @@
+{
+  "name": "pt-valheim",
+  "version": "0.0.1",
+  "description": "Modpack for viking times",
+  "dependencies": [
+    {
+      "name": "BepInEx",
+      "version": "5.4.11"
+    }
+  ],
+  "files": [
+    {
+      "source": "BepInEx/config/modname.cfg",
+      "destination": "BepInEx/config/modname.cfg"
+    },
+    {
+      "source": "BepInEx/patchers/modname.Patcher.dll",
+      "destination": "BepInEx/patchers/modname.Patcher.dll"
+    },
+    {
+      "source": "BepInEx/plugins/modname.dll",
+      "destination": "BepInEx/plugins/modname.dll"
+    }
+  ]
+}

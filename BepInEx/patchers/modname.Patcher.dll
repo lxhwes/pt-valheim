@@ -1,0 +1,29 @@
+using BepInEx;
+using HarmonyLib;
+
+namespace modname
+{
+    [BepInPlugin("com.example.modname", "Mod Name", "1.0.0")]
+    public class ModName : BaseUnityPlugin
+    {
+        private void Awake()
+        {
+            var harmony = new Harmony("com.example.modname");
+            harmony.PatchAll();
+        }
+    }
+
+    [HarmonyPatch(typeof(Game), "SomeMethodToPatch")]
+    public static class Patch_Game_SomeMethodToPatch
+    {
+        public static void Prefix()
+        {
+            // Code to run before the original method
+        }
+
+        public static void Postfix()
+        {
+            // Code to run after the original method
+        }
+    }
+}
