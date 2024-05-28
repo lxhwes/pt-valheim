@@ -1,0 +1,24 @@
+name: Publish Mod
+
+# Run when a new release is... released
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      # Use checkout to publish the files in your repo
+      - uses: actions/checkout@v3
+      - uses: GreenTF/upload-thunderstore-package@v4.2
+        with:
+          namespace: Poundtown # the thunderstore 'team' to publish under
+          description: Modpackage for trve warriors. # the description of the package
+          token: ${{ secrets.thunderstore_svc }} # the thunderstore token, managed via secrets
+          name: pt_valheim # the name of the package
+          version: ${{ github.ref_name }} # Use the tag as the package version
+          community: Valheim # the game the package belongs to
+          repo: valheim.thunderstore.io #
+          categories: | # <-- notice this pipe character
+            modpacks
