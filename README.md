@@ -1,29 +1,37 @@
-# Valheim Modpack
+# pt-valheim
 
-This modpack enhances the gameplay experience in Valheim by adding new features and modifying existing ones. It includes the following files:
-
-## BepInEx/config/modname.cfg
-
-This file is a configuration file for the mod. It contains settings and options specific to the mod. Make sure to customize the configuration according to your preferences.
-
-## BepInEx/patchers/modname.Patcher.dll
-
-This file is a patcher DLL for the mod. It is responsible for modifying the game's code to add or change functionality. Ensure that this DLL is placed in the correct directory for the mod to work properly.
-
-## BepInEx/plugins/modname.dll
-
-This file is the main plugin DLL for the mod. It contains the code that adds new features or modifies existing ones in the game. Make sure to install this DLL in the appropriate directory for the mod to function correctly.
+Thunderstore.io Modpack for trve warriors of `poundtown.oovoid.com`
 
 ## manifest.json
 
-This file is a metadata file for the modpack. It contains information about the modpack, such as its name, version, and dependencies. Review and update the information in this file as necessary.
+This file is a metadata file for the modpack. It contains information about the modpack, such as its name, version, and dependencies. The `manifest.json` file is structured as follows:
 
-## README.md
+```json
+{
+  "name": "modpack name",
+  "version": "modpack version",
+  "description": "modpack description",
+  "dependencies": [
+    {
+        "Some-Dependencies-mod-1.6.9"
+    },
+    ...
+  ]
+}
+```
 
-This file contains the documentation for the modpack. It provides instructions on how to install and use the modpack. Customize this file to provide detailed information about your modpack, including installation steps, configuration options, and any known issues or limitations.
+# BepInEx Examples
 
-Please replace "modname" with the actual name of your mod files in the file paths mentioned above.
+To incluide BepInEx preconfigured mod .cfg files, use the examples below. Mainly for server side operation.
 
-For more information on Valheim modding and BepInEx, refer to the official documentation and community resources.
+## BepInEx/config/modname.cfg
 
-Enjoy your enhanced Valheim experience with this modpack!
+This file is a example configuration file for a mod. It contains settings and options specific to the mod.
+
+## BepInEx/patchers/modname.Patcher.dll
+
+This file is an example patcher DLL for the mod. It is responsible for modifying the game's code to add or change functionality.
+
+## BepInEx/plugins/modname.dll
+
+This file is an example of the main plugin DLL for a mod. It contains the code that adds new features or modifies existing ones in the game.
