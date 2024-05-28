@@ -1,25 +1,34 @@
 {
   "name": "pt-valheim",
-  "version": "0.0.1",
-  "description": "Modpack for viking times",
+  "version": "1.0.0",
+  "description": "Poundtown Valheim Modpack",
   "dependencies": [
     {
       "name": "BepInEx",
-      "version": "5.4.11"
+      "version": "5.4.2202"
+    },
+    {
+      "name": "Jotunn",
+      "version": "2.20.1"
+    },
+    {
+      "name": "R2API",
+      "version": "2.5.14"
+    },
+    {
+      "name": "ValheimPlus",
+      "version": "0.9.8"
+    },
+    {
+      "name": "ValheimLib",
+      "version": "0.79.0"
+
     }
   ],
   "files": [
     {
       "source": "BepInEx/config/modname.cfg",
       "destination": "BepInEx/config/modname.cfg"
-    },
-    {
-      "source": "BepInEx/patchers/modname.Patcher.dll",
-      "destination": "BepInEx/patchers/modname.Patcher.dll"
-    },
-    {
-      "source": "BepInEx/plugins/modname.dll",
-      "destination": "BepInEx/plugins/modname.dll"
     }
   ]
 }
