@@ -54,6 +54,6 @@ jobs:
           color: "2105893" # Hex color code for the embed
           username: "FrelseVíkingr" # bot username
           avatar_url: "https://github.com/lxhwes/pt-valheim/blob/main/docs/img/avatar.png" # bot avatar url
-          content: "||A new version of pt-valheim has been released y'all||" # message content
+          content: "**A new version of pt-valheim has been released y'all**" # message content
           footer_title: "Changelog" # footer title
           footer_timestamp: true # show timestamp in footer (boolean)
