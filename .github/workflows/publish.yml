@@ -31,7 +31,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: GreenTF/upload-thunderstore-package@v4.2
         with:
-          namespace: 'PoundTown' # the thunderstore team name
+          namespace: "PoundTown" # the thunderstore team name
           description: Modpackage for trve warriors. Be Aggressive. # the description of the package
           token: ${{ secrets.thunderstore_svc }} # the thunderstore token, managed via secrets
           name: pt_valheim # the name of the package, can also use env.name var
