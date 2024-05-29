@@ -1,6 +1,6 @@
 {
   "name": "pt_valheim",
-  "version_number": "1.1.0",
+  "version_number": "1.1.1",
   "website_url": "https://github.com/lxhwes/pt-valheim",
   "description": "PoundTown Valheim Modpack for trve warriors. Be agressive.",
   "dependencies": [
@@ -13,6 +13,7 @@
     "Azumatt-SleepSkip-1.1.0",
     "ComfyMods-Chatter-2.8.0",
     "ComfyMods-ColorfulPortals-1.8.0",
+    "ComfyMods-ColorfulLights-1.11.0",
     "denikson-BepInExPack_Valheim-5.4.2202",
     "Digitalroot-Heightmap_Unlimited_Remake-1.4.1",
     "Digitalroot-Max_Dungeon_Rooms-2.0.32",
@@ -21,6 +22,7 @@
     "Neobotics-RequipMe-0.2.2",
     "OdinPlus-QuickTeleport-1.0.0",
     "SpikeHimself-XPortal-1.2.21",
+    "shudnal-ConfigurationManager-1.0.7",
     "ValheimModding-Jotunn-2.20.1",
     "virtuaCode-EmoteWheel-1.4.1",
     "virtuaCode-EquipWheel-1.5.2",

@@ -1,6 +1,15 @@
 # Changelog
 
+## 1.1.1
+
+- **Mods added: 2**
+- **Total mods: 24**
+
+- [ComfyMods-ColorfulLights-1.11.0](https://thunderstore.io/c/valheim/p/ComfyMods/ColorfulLights/)
+- [shudnal-ConfigurationManager-1.0.7](https://thunderstore.io/c/valheim/p/shudnal/ConfigurationManager/)
+
 ## 1.1.0
+
 - **Mods added: 10**
 - **Total mods: 22**
 
@@ -16,6 +25,7 @@
 - [OdinPlus-QuickTeleport-1.0.0](https://thunderstore.io/c/valheim/p/OdinPlus/QuickTeleport/)
 
 ## 1.0.0 - Ashlands
+
 - Mods added: 12
 - Total mods: 12
 
