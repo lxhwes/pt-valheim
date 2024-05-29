@@ -1,24 +1,43 @@
-name: Publish Mod
+name: Publish Mod to Thunderstore.io
 
-# Run when a new release is... released
+# Run publish action when a new release is... released
+
 on:
   release:
     types: [published]
-
 jobs:
-  publish:
+  verify:
     runs-on: ubuntu-latest
     steps:
-      # Use checkout to publish the files in your repo
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Get version number
+        run: echo "cleanVersion=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
+
+      - name: Verify version number
+        run: |
+          manifestVersion=$(grep -oP '"version_number": "\K[^"]*' manifest.json)
+          if [[ "$manifestVersion" != "${{ env.cleanVersion }}" ]]; then
+            echo "Version mismatch!"
+            echo "Tag version: ${{ env.cleanVersion }}"
+            echo "manifest.json version: $manifestVersion"
+            exit 1
+          fi
+  publish:
+    runs-on: ubuntu-latest
+    needs: verify
+    steps:
       - uses: actions/checkout@v3
+      - name: Upload Thunderstore Package
       - uses: GreenTF/upload-thunderstore-package@v4.2
         with:
-          namespace: Poundtown # the thunderstore 'team' to publish under
+          namespace: Poundtown # the thunderstore team name
           description: Modpackage for trve warriors. # the description of the package
           token: ${{ secrets.thunderstore_svc }} # the thunderstore token, managed via secrets
-          name: pt_valheim # the name of the package
+          name: pt_valheim # the name of the package, can also use env.name var
           version: ${{ github.ref_name }} # Use the tag as the package version
           community: Valheim # the game the package belongs to
-          repo: valheim.thunderstore.io #
+          repo: valheim.thunderstore.io # the repo the package belongs to on thunderstore
           categories: | # <-- notice this pipe character
             modpacks
