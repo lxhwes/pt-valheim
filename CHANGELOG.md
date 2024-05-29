@@ -5,6 +5,8 @@
 - **Mods added: 2**
 - **Total mods: 24**
 
+### Added
+
 - [ComfyMods-ColorfulLights-1.11.0](https://thunderstore.io/c/valheim/p/ComfyMods/ColorfulLights/)
 - [shudnal-ConfigurationManager-1.0.7](https://thunderstore.io/c/valheim/p/shudnal/ConfigurationManager/)
 
@@ -12,6 +14,8 @@
 
 - **Mods added: 10**
 - **Total mods: 22**
+
+## Added
 
 - [aedenthorn_mods-InstantMonsterLootDrop-0.5.1](https://thunderstore.io/c/valheim/p/aedenthorn_mods/InstantMonsterLootDrop/)
 - [Azumatt-AzuClock-1.0.3](https://thunderstore.io/c/valheim/p/Azumatt/AzuClock/)
@@ -26,8 +30,10 @@
 
 ## 1.0.0 - Ashlands
 
-- Mods added: 12
-- Total mods: 12
+- **Mods added: 12**
+- **Total mods: 12**
+
+### Added
 
 - [Advize-PlantEverything-1.18.0](https://thunderstore.io/c/valheim/p/Advize/PlantEverything/)
 - [Advize-PlantEasily-1.8.0](https://thunderstore.io/c/valheim/p/Advize/PlantEasily/)
