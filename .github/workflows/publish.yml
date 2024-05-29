@@ -36,7 +36,7 @@ jobs:
           token: ${{ secrets.thunderstore_svc }} # the thunderstore token, managed via secrets
           name: pt_valheim # the name of the package, can also use env.name var
           version: ${{ github.ref_name }} # Use the tag as the package version
-          community: Valheim # the game the package belongs to
+          community: valheim # the game the package belongs to
           repo: valheim.thunderstore.io # the repo the package belongs to on thunderstore
           categories: | # <-- notice this pipe character
             modpacks
