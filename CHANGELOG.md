@@ -1,16 +1,26 @@
 # Changelog
 
+## 1.1.0
+
+- [aedenthorn_mods-InstantMonsterLootDrop-0.5.1](https://thunderstore.io/c/valheim/p/aedenthorn_mods/InstantMonsterLootDrop/)
+- [Azumatt-AzuClock-1.0.3](https://thunderstore.io/c/valheim/p/Azumatt/AzuClock/)
+- [Azumatt-ImFRIENDLY_DAMMIT-1.1.4](https://thunderstore.io/c/valheim/p/Azumatt/ImFRIENDLY_DAMMIT/)
+- [Azumatt-ResourceUnloadOptimizer-1.0.4](https://thunderstore.io/c/valheim/p/Azumatt/ResourceUnloadOptimizer/)
+- [Neobotics-RequipMe-0.2.2](https://thunderstore.io/c/valheim/p/Neobotics/RequipMe/)
+- [virtuaCode-TrashItems-1.2.8](https://thunderstore.io/c/valheim/p/virtuaCode/TrashItems/)
+- [virtuaCode-EquipWheel-1.5.2](https://thunderstore.io/c/valheim/p/virtuaCode/EquipWheel/)
+
 ## 1.0.0 - Ashlands
 
-- Advize-PlantEverything-1.18.0
-- Advize-PlantEasily-1.8.0
-- Azumatt-SleepSkip-1.1.0
-- denikson-BepInExPack_Valheim-5.4.2202
-- Digitalroot-Heightmap_Unlimited_Remake-1.4.1
-- Digitalroot-Max_Dungeon_Rooms-2.0.32
-- Grantapher-ValheimPlus_Grantapher_Temporary-9.13.0
-- SpikeHimself-XPortal-1.2.21
-- LVH-IT-UseEquipmentInWater-0.2.4
-- ValheimModding-Jotunn-2.20.1
-- virtuaCode-EmoteWheel-1.4.1
-- zolantris-ValheimRAFT-2.1.1
+- [Advize-PlantEverything-1.18.0]((https://thunderstore.io/c/valheim/p/Advize/PlantEverything/))
+- [Advize-PlantEasily-1.8.0]((https://thunderstore.io/c/valheim/p/Advize/PlantEasily/))
+- [Azumatt-SleepSkip-1.1.0]((https://thunderstore.io/c/valheim/p/Azumatt/SkipSleep))
+- [denikson-BepInExPack_Valheim-5.4.2202]((https://thunderstore.io/c/valheim/p/denikson/BepInExPack_Valheim/))
+- [Digitalroot-Heightmap_Unlimited_Remake-1.4.1]((https://thunderstore.io/c/valheim/p/Digitalroot/Heightmap-Unlimited_Remake/))
+- [Digitalroot-Max_Dungeon_Rooms-2.0.32]((https://thunderstore.io/c/valheim/p/Digitalroot/Max_Dungeon_Rooms/))
+- [Grantapher-ValheimPlus_Grantapher_Temporary-9.13.0]((https://thunderstore.io/c/valheim/p/Grantapher/ValheimPlus_Grantapher_Temporary/))
+- [SpikeHimself-XPortal-1.2.21]((https://thunderstore.io/c/valheim/p/SpikeHimself/XPortal/))
+- [LVH-IT-UseEquipmentInWater-0.2.4]((https://thunderstore.io/c/valheim/p/LVH-IT/UseEquipmentInWater/))
+- [ValheimModding-Jotunn-2.20.1]((https://thunderstore.io/c/valheim/p/ValheimModding/Jotunn/))
+- [virtuaCode-EmoteWheel-1.4.1]((https://thunderstore.io/c/valheim/p/virtuaCode/EmoteWheel/))
+- [zolantris-ValheimRAFT-2.1.1]((https://thunderstore.io/c/valheim/p/zolantris/ValheimRAFT/))
