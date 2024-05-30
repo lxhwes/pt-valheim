@@ -12,7 +12,7 @@
 
 ### Added
 
-- [Heinermann-BetterCreative-1.5.0(https://thunderstore.io/c/valheim/p/Heinermann/BetterCreative/)
+- [Heinermann-BetterCreative-1.5.0](https://thunderstore.io/c/valheim/p/Heinermann/BetterCreative/)
 
 ## 1.1.1
 
