@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.1.2
+
+- **Mods added: 1**
+- **Total mods: 25**
+
+### Updated
+
+- Update version requirements for Grantapher-ValheimPlus_Grantapher_Temporary-9.13.1
+- Update version requirements for Azumatt-SleepSkip-1.1.0
+
+### Added
+
+- [Heinermann-BetterCreative-1.5.0(https://thunderstore.io/c/valheim/p/Heinermann/BetterCreative/)
+
 ## 1.1.1
 
 - **Mods added: 2**
@@ -15,7 +29,7 @@
 - **Mods added: 10**
 - **Total mods: 22**
 
-## Added
+### Added
 
 - [aedenthorn_mods-InstantMonsterLootDrop-0.5.1](https://thunderstore.io/c/valheim/p/aedenthorn_mods/InstantMonsterLootDrop/)
 - [Azumatt-AzuClock-1.0.3](https://thunderstore.io/c/valheim/p/Azumatt/AzuClock/)
